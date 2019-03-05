@@ -1,0 +1,24 @@
+{
+  "name": "tacoboutsomegrub",
+  "version": "1.0.0",
+  "description": "Taco Generator using Node with persistent data utilizing mysql.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joura210/tacoBoutSomeGrub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joura210/tacoBoutSomeGrub/issues"
+  },
+  "homepage": "https://github.com/Joura210/tacoBoutSomeGrub#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.16.0"
+  }
+}
