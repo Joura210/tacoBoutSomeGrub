@@ -1,5 +1,5 @@
-INSERT INTO tacos (type) VALUES ("Carne Asada");
-INSERT INTO tacos (type) VALUES ("Carnitas");
-INSERT INTO tacos (type) VALUES ("Chicken");
-INSERT INTO tacos (type) VALUES ("Vegan");
-INSERT INTO tacos (type) VALUES ("All Veggie");
+INSERT INTO taco (taco) VALUES ("Carne Asada");
+INSERT INTO taco (taco) VALUES ("Carnitas");
+INSERT INTO taco (taco) VALUES ("Chicken");
+INSERT INTO taco (taco) VALUES ("Vegan");
+INSERT INTO taco (taco) VALUES ("All Veggie");
