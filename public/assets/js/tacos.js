@@ -2,10 +2,10 @@
 $(function() {
     $(".change-tasted").on("click", function(event) {
       var id = $(this).data("id");
-      var newTaste = $(this).data("newtaste");
+      var newTaste = true
   
       var tastedYum = {
-        sleepy: newTaste
+        tasted: newTaste
       };
   
       // Send the PUT request.
@@ -26,8 +26,8 @@ $(function() {
       event.preventDefault();
   
       var newTaco = {
-        name: $("#newTaco").val().trim(),
-        tasted: $("[name=tasted]:checked").val().trim()
+        taco: $("#newTaco").val().trim(),
+        tasted: $("[name=tasted]:checked").val()
       };
   
       // Send the POST request.

@@ -16,9 +16,12 @@
             <h2>Tacos for Consumption!</h2>
 
             <ul>
-                {{#each tacos}}
+                {{#each taco}}
                 {{#unless tasted}}
-                    {{!-- {{> tacos/tacos-block tasted=false}} --}}
+                    <li>
+                        {{this.id}} {{this.taco}}
+                        <button class="change-tasted" data-id="{{this.id}}">Eat Me!</button>
+                    </li>
                 {{/unless}}
                 {{/each}}
             </ul>
@@ -29,9 +32,12 @@
             <h2>Tacos That have been Consumed!</h2>
 
             <ul>
-                {{#each tacos}}
+                {{#each taco}}
                     {{#if tasted}}
-                        {{!-- {{> tacos/tacos-block tasted=true}} --}}
+                    <li>
+                        {{this.id}} {{this.taco}}
+                <button class="delete-taco" data-id="{{this.id}}">Delete</button>
+                    </li>
                     {{/if}}
 
                 {{/each}}
